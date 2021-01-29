@@ -19,6 +19,8 @@ from myapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',views.home,name='home_page')
+    path('',views.home,name='home_page'),
+    path('new_search/',views.new_search,name='new_search')
+
 ]
 
